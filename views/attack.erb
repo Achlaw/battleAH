@@ -1,1 +1,7 @@
-<%=@player1%> attacked <%=@player2%>
+<%=@player1%> attacked <%=@player2%><br>
+<%=$player2.receive_damage%><br>
+<!--<%=$player2.hit_points%>-->
+<form action = '/play'>
+  <button type='submit' value="Attack">Player 2 Attack
+  </button>
+</form>
